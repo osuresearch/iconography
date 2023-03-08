@@ -1,6 +1,6 @@
 {
   "name": "@osuresearch/iconography",
-  "version": "1.0.0-alpha",
+  "version": "1.0.0",
   "license": "MIT",
   "private": false,
   "description": "React UI components for OSU Office of Research applications",
@@ -146,7 +146,5 @@
   "lint-staged": {
     "*.{ts,tsx}": "npm run lint"
   },
-  "dependencies": {
-
-  }
+  "dependencies": {}
 }
