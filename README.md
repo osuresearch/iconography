@@ -1,8 +1,7 @@
 
 # Office of Research Iconography
 
-[![npm@latest](https://img.shields.io/npm/v/@osuresearch/ui/latest)](https://www.npmjs.com/package/@osuresearch/ui)
-[![npm@alpha](https://img.shields.io/npm/v/@osuresearch/ui/alpha)](https://www.npmjs.com/package/@osuresearch/ui)
+[![npm@latest](https://img.shields.io/npm/v/@osuresearch/iconography/latest)](https://www.npmjs.com/package/@osuresearch/iconography)
 
 Icons and illustrations used by the Research UI design system
 
