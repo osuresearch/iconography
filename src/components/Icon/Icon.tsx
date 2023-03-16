@@ -5,6 +5,8 @@ import React, { CSSProperties } from 'react';
 // for apps that can't call out to a public CDN
 import { loadAllIcons } from '../../icons';
 
+// TODO: This is a side effect. Wrap it into an icon component
+// so we don't load until we need them.
 loadAllIcons();
 
 export type IconProps = {
