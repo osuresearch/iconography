@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/osuresearch/iconography/compare/v1.0.0...v1.0.1) (2023-03-16)
+
+
+### Bug Fixes
+
+* missing package export of Icon component ([c279151](https://github.com/osuresearch/iconography/commit/c279151fe6b83843bdbf8a4759c70611225dba9d))
+
 # 1.0.0 (2023-03-08)
 
 
