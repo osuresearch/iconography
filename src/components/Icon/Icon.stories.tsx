@@ -21,7 +21,7 @@ export const Overview: Story = {
 };
 
 export const ColorsAndComposition: Story = {
-  render: (args) => (
+  render: () => (
     <div>
       <Icon size={64} name="facebook" style={{ color: '#4267B2' }} />
       <div

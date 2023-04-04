@@ -1,6 +1,6 @@
 // Iconify icon bundle configuration for all icons we support
 // Ref: https://docs.iconify.design/icon-components/bundles/
-import { addCollection, addIcon } from '@iconify/react/dist/offline';
+import { addCollection, addIcon as iconifyAddIcon } from '@iconify/react/dist/offline';
 
 import * as data from './data';
 import * as misc from './misc';
@@ -40,9 +40,19 @@ export function loadAllIcons() {
   // addIcon() is faster under the hood - less validation steps
 
   Object.keys(all).forEach((name) => {
-    addIcon(name, all[name].default);
+    iconifyAddIcon(name, all[name].default);
   });
 
   addCollection(ruiIcons);
   addCollection(ruiIllustrations);
+}
+
+export type IconDefinition = {
+  body: string;
+  width: number;
+  height: number;
+}
+
+export function addIcon(name: string, icon: IconDefinition) {
+  iconifyAddIcon(name, icon);
 }
